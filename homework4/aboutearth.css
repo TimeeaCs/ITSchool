@@ -34,7 +34,7 @@ body {
     font-size:xx-large;
 }
 .menu-item {
-    display: flex
+    display: flex;
     text-decoration: none;
     color:black;
     border-inline-end: 0.4em solid black;
@@ -76,7 +76,7 @@ body {
     margin-block-start: 1rem;
 }
 .article {
-    height: 65%
+    height: 65%;
     box-sizing: border-box;
     margin-block: 1rem;
     padding: 1rem;
