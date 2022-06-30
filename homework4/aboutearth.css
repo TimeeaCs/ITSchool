@@ -1,0 +1,91 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: radial-gradient(rgb(238,255,249), white);
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0;
+}
+
+
+.container {
+    background-image: radial-gradient(rgb(179, 217, 231), white);
+    width: calc(100vw - 50rem);
+    min-height: calc(100vh - 8rem);
+    margin: 3rem auto;
+    padding: 0.5rem 2rem;
+    box-sizing: content-box;
+    overflow: auto;
+    box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.25);
+    border-radius: 1.5rem;
+}
+
+.menu {
+    margin-block-end: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.page-title{
+    margin-block-start: 0;
+    margin-block-end: 1rem;
+    font-style: italic;
+    font-size:xx-large;
+}
+.menu-item {
+    display: flex
+    text-decoration: none;
+    color:black;
+    border-inline-end: 0.4em solid black;
+    padding: 0.75em 2em;
+    border-radius: 2em;
+    text-transform: uppercase;
+}
+
+.menu-item.color {
+    background: rgb(216, 188, 112);
+}
+
+.subheader {
+    display: flex;
+    justify-content: space-around;
+}
+
+.earthimage {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.image {
+    width: 100%;
+    object-fit: contain;
+}
+
+.sub {
+    font-size:medium;
+}
+.contactbutton {
+    background-color: rgb(246, 78, 11);
+    color: white;
+    padding: 1rem 1rem;
+    border-radius: 1.7rem;
+    text-decoration: none;
+    font-size: 1rem;
+    display: inline-block;
+    margin-block-start: 1rem;
+}
+.article {
+    height: 65%
+    box-sizing: border-box;
+    margin-block: 1rem;
+    padding: 1rem;
+    background: transparent;
+    border: 0.1rem solid black;
+    font-size: 1rem;
+    box-sizing: content-box;
+}
+
+p {
+    text-indent: 1rem;
+}
